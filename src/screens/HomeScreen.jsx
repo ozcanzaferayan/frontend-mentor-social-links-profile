@@ -5,11 +5,23 @@ import CardLink from "../components/CardLink";
 
 const HomeScreen = () => {
   const links = [
-    { name: "GitHub", href: "#", emoji: "👨‍💻" },
-    { name: "FrontendMentor", href: "#", emoji: "🚀" },
-    { name: "LinkedIn", href: "#", emoji: "👔" },
-    { name: "Twitter", href: "#", emoji: "🐦" },
-    { name: "Instagram", href: "#", emoji: "📸" },
+    { name: "GitHub", href: "https://github.com/ozcanzaferayan", emoji: "👨‍💻" },
+    {
+      name: "FrontendMentor",
+      href: "https://www.frontendmentor.io/profile/ozcanzaferayan",
+      emoji: "🚀",
+    },
+    {
+      name: "LinkedIn",
+      href: "https://www.linkedin.com/in/zaferayan/",
+      emoji: "👔",
+    },
+    { name: "Twitter", href: "https://twitter.com/ZaferAyan", emoji: "🐦" },
+    {
+      name: "Instagram",
+      href: "https://www.instagram.com/zafer.eats/?hl=en",
+      emoji: "📸",
+    },
   ];
 
   return (
