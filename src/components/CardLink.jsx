@@ -3,9 +3,9 @@ const CardLink = (props) => {
   return (
     <a
       href={href}
-      className="flex items-center justify-center rounded-lg bg-indigo-500 p-4 text-white shadow-lg hover:bg-indigo-800 dark:bg-gray dark:hover:bg-dark"
+      className="dark:bg-grey dark:hover:bg-neon-green bg-grey hover:text-neon-green flex items-center justify-center rounded-lg p-3 font-bold text-white shadow-lg hover:bg-black dark:hover:text-black"
     >
-      <span className="mr-4 text-3xl">{props.emoji}</span> {props.children}
+      {props.children}
     </a>
   );
 };

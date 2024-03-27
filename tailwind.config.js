@@ -3,15 +3,18 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      sans: ["Poppins", "sans-serif"],
+      sans: ["Inter", "sans-serif"],
     },
     extend: {
+      fontSize: {
+        base: "14px",
+      },
       colors: {
-        dark: "#141414",
-        "gray-dark": "#1f1f1f",
-        gray: "#333333",
-        white: "#ffffff",
-        lime: "#cce772",
+        black: "#141414",
+        "dark-grey": "#1F1F1F",
+        grey: "#333333",
+        white: "#FFFFFF",
+        "neon-green": "#C4F82A",
       },
     },
   },
